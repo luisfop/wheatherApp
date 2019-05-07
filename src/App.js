@@ -57,8 +57,7 @@ class App extends React.Component {
               <div className="col-xs-5 title-container">
                 <Titles />
               </div>
-              <div className="col-xs-7 form-container">
-
+              <div className="col-xs-6 form-container">
                 <Forms getWheather={this.getWheather} />
                 <Wheather
                   temperature={this.state.temperature}
